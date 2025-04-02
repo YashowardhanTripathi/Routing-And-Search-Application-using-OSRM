@@ -1,0 +1,5577 @@
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18603360000,
+                        23.61184910000
+                    ],
+                    [
+                        58.18533120000,
+                        23.61161320000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "Schools",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "EntityHandle": "Muscat International School",
+                "Layer": "Schools"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18654530000,
+                        23.61075660000
+                    ],
+                    [
+                        58.18705410000,
+                        23.61092750000
+                    ],
+                    [
+                        58.18717560000,
+                        23.61062040000
+                    ],
+                    [
+                        58.18666690000,
+                        23.61044950000
+                    ],
+                    [
+                        58.18654530000,
+                        23.61075660000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3ED",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18627330000,
+                        23.60986560000
+                    ],
+                    [
+                        58.18599700000,
+                        23.60977280000
+                    ],
+                    [
+                        58.18592850000,
+                        23.60994590000
+                    ],
+                    [
+                        58.18620480000,
+                        23.61003870000
+                    ],
+                    [
+                        58.18627330000,
+                        23.60986560000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 11",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18779937565,
+                        23.61165314278
+                    ],
+                    [
+                        58.18759710577,
+                        23.61216315250
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "30C",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18579590000,
+                        23.61137000000
+                    ],
+                    [
+                        58.18560810000,
+                        23.61130690000
+                    ],
+                    [
+                        58.18550730000,
+                        23.61156150000
+                    ],
+                    [
+                        58.18569520000,
+                        23.61162460000
+                    ],
+                    [
+                        58.18579590000,
+                        23.61137000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "401",
+                "Linetype": "ByBlock",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18634170000,
+                        23.60969250000
+                    ],
+                    [
+                        58.18606550000,
+                        23.60959970000
+                    ],
+                    [
+                        58.18599700000,
+                        23.60977280000
+                    ],
+                    [
+                        58.18627330000,
+                        23.60986560000
+                    ],
+                    [
+                        58.18634170000,
+                        23.60969250000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Shop No. 46D",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18660820000,
+                        23.60876860000
+                    ],
+                    [
+                        58.18646540000,
+                        23.60872070000
+                    ],
+                    [
+                        58.18640260000,
+                        23.60874760000
+                    ],
+                    [
+                        58.18631870000,
+                        23.60895980000
+                    ],
+                    [
+                        58.18650750000,
+                        23.60902320000
+                    ],
+                    [
+                        58.18660820000,
+                        23.60876860000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "Shop No. 411",
+                "Layer": "shop",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18856690000,
+                        23.60947380000
+                    ],
+                    [
+                        58.18853820000,
+                        23.60941700000
+                    ],
+                    [
+                        58.18839090000,
+                        23.60936750000
+                    ],
+                    [
+                        58.18829010000,
+                        23.60962210000
+                    ],
+                    [
+                        58.18848260000,
+                        23.60968670000
+                    ],
+                    [
+                        58.18856690000,
+                        23.60947380000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "56A",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18730530000,
+                        23.61094850000
+                    ],
+                    [
+                        58.18758160000,
+                        23.61104130000
+                    ],
+                    [
+                        58.18765070000,
+                        23.61086650000
+                    ],
+                    [
+                        58.18737450000,
+                        23.61077370000
+                    ],
+                    [
+                        58.18730530000,
+                        23.61094850000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 11",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18759710577,
+                        23.61216315250
+                    ],
+                    [
+                        58.18752122385,
+                        23.61233496968
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18869820181,
+                        23.60935462874
+                    ],
+                    [
+                        58.18636869739,
+                        23.60860473175
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "35D",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18811130000,
+                        23.61062520000
+                    ],
+                    [
+                        58.18783510000,
+                        23.61053240000
+                    ],
+                    [
+                        58.18776590000,
+                        23.61070720000
+                    ],
+                    [
+                        58.18804220000,
+                        23.61080000000
+                    ],
+                    [
+                        58.18811130000,
+                        23.61062520000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "429",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18708120000,
+                        23.60926400000
+                    ],
+                    [
+                        58.18688880000,
+                        23.60919940000
+                    ],
+                    [
+                        58.18678810000,
+                        23.60945390000
+                    ],
+                    [
+                        58.18698723874,
+                        23.60951165348
+                    ],
+                    [
+                        58.18708120000,
+                        23.60926400000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Lulu Hypermarket",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18755660513,
+                        23.60936670669
+                    ],
+                    [
+                        58.18765660000,
+                        23.60910960000
+                    ],
+                    [
+                        58.18745100000,
+                        23.60903870000
+                    ],
+                    [
+                        58.18735360000,
+                        23.60929590000
+                    ],
+                    [
+                        58.18755660513,
+                        23.60936670669
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18672624943,
+                        23.60956256030
+                    ],
+                    [
+                        58.18698405133,
+                        23.60964959370
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "D0E",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18754190000,
+                        23.60940850000
+                    ],
+                    [
+                        58.18744370000,
+                        23.60966870000
+                    ],
+                    [
+                        58.18762020000,
+                        23.60973350000
+                    ],
+                    [
+                        58.18772360000,
+                        23.60947320000
+                    ],
+                    [
+                        58.18754190000,
+                        23.60940850000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "564",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18575470000,
+                        23.61130810000
+                    ],
+                    [
+                        58.18602990000,
+                        23.61140060000
+                    ],
+                    [
+                        58.18609940000,
+                        23.61122780000
+                    ],
+                    [
+                        58.18582320000,
+                        23.61113500000
+                    ],
+                    [
+                        58.18575470000,
+                        23.61130810000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Shop No. D80",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18719800000,
+                        23.60896250000
+                    ],
+                    [
+                        58.18699350000,
+                        23.60889420000
+                    ],
+                    [
+                        58.18689180000,
+                        23.60914790000
+                    ],
+                    [
+                        58.18709710000,
+                        23.60921720000
+                    ],
+                    [
+                        58.18719800000,
+                        23.60896250000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "325",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18758160000,
+                        23.61104130000
+                    ],
+                    [
+                        58.18730530000,
+                        23.61094850000
+                    ],
+                    [
+                        58.18723610000,
+                        23.61112330000
+                    ],
+                    [
+                        58.18751240000,
+                        23.61121610000
+                    ],
+                    [
+                        58.18758160000,
+                        23.61104130000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "566",
+                "Linetype": "ByBlock",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18589160000,
+                        23.61096200000
+                    ],
+                    [
+                        58.18616790000,
+                        23.61105480000
+                    ],
+                    [
+                        58.18623640000,
+                        23.61088170000
+                    ],
+                    [
+                        58.18596010000,
+                        23.61078890000
+                    ],
+                    [
+                        58.18589160000,
+                        23.61096200000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18775290000,
+                        23.60990820000
+                    ],
+                    [
+                        58.18776062185,
+                        23.60991041839
+                    ],
+                    [
+                        58.18839488505,
+                        23.61010811621
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18641237354,
+                        23.61111040667
+                    ],
+                    [
+                        58.18692740000,
+                        23.61128390000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "33D",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18797300000,
+                        23.61097480000
+                    ],
+                    [
+                        58.18769680000,
+                        23.61088200000
+                    ],
+                    [
+                        58.18763730000,
+                        23.61103230000
+                    ],
+                    [
+                        58.18762760000,
+                        23.61105680000
+                    ],
+                    [
+                        58.18763750000,
+                        23.61106010000
+                    ],
+                    [
+                        58.18790380000,
+                        23.61114960000
+                    ],
+                    [
+                        58.18797300000,
+                        23.61097480000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 44",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18684577329,
+                        23.60969876508
+                    ],
+                    [
+                        58.18670950000,
+                        23.61004080000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 11",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18840459073,
+                        23.61011190235
+                    ],
+                    [
+                        58.18782843476,
+                        23.61157540814
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "369",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18637330000,
+                        23.61053550000
+                    ],
+                    [
+                        58.18609710000,
+                        23.61044270000
+                    ],
+                    [
+                        58.18607220000,
+                        23.61050560000
+                    ],
+                    [
+                        58.18602860000,
+                        23.61061580000
+                    ],
+                    [
+                        58.18607330000,
+                        23.61063080000
+                    ],
+                    [
+                        58.18630480000,
+                        23.61070860000
+                    ],
+                    [
+                        58.18637330000,
+                        23.61053550000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "430",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18729240000,
+                        23.60932500000
+                    ],
+                    [
+                        58.18719490000,
+                        23.60958130000
+                    ],
+                    [
+                        58.18698910000,
+                        23.60951190000
+                    ],
+                    [
+                        58.18708800000,
+                        23.60925660000
+                    ],
+                    [
+                        58.18729240000,
+                        23.60932500000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 44",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18630950000,
+                        23.61086830000
+                    ],
+                    [
+                        58.18611920000,
+                        23.61134930000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "Postal_Code",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "EntityHandle": "A"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18529996091,
+                        23.61154434728
+                    ],
+                    [
+                        58.18751026504,
+                        23.61226754602
+                    ],
+                    [
+                        58.18774949030,
+                        23.61166706944
+                    ],
+                    [
+                        58.18705685624,
+                        23.61142108608
+                    ],
+                    [
+                        58.18636318992,
+                        23.61119330317
+                    ],
+                    [
+                        58.18629331149,
+                        23.61121769689
+                    ],
+                    [
+                        58.18621104766,
+                        23.61141789985
+                    ],
+                    [
+                        58.18619042783,
+                        23.61145001456
+                    ],
+                    [
+                        58.18616538549,
+                        23.61146738909
+                    ],
+                    [
+                        58.18604807242,
+                        23.61142762492
+                    ],
+                    [
+                        58.18675271909,
+                        23.60966861182
+                    ],
+                    [
+                        58.18675215681,
+                        23.60962172369
+                    ],
+                    [
+                        58.18672059005,
+                        23.60959052603
+                    ],
+                    [
+                        58.18614954373,
+                        23.60939210918
+                    ],
+                    [
+                        58.18610626890,
+                        23.60939738642
+                    ],
+                    [
+                        58.18608339864,
+                        23.60942714619
+                    ],
+                    [
+                        58.18526740757,
+                        23.61146855040
+                    ],
+                    [
+                        58.18529996091,
+                        23.61154434728
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 859",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18775290000,
+                        23.60990820000
+                    ],
+                    [
+                        58.18774660000,
+                        23.60990630000
+                    ],
+                    [
+                        58.18774010000,
+                        23.60990480000
+                    ],
+                    [
+                        58.18773350000,
+                        23.60990370000
+                    ],
+                    [
+                        58.18772680000,
+                        23.60990300000
+                    ],
+                    [
+                        58.18772020000,
+                        23.60990270000
+                    ],
+                    [
+                        58.18771350000,
+                        23.60990290000
+                    ],
+                    [
+                        58.18770680000,
+                        23.60990350000
+                    ],
+                    [
+                        58.18770020000,
+                        23.60990450000
+                    ],
+                    [
+                        58.18769370000,
+                        23.60990590000
+                    ],
+                    [
+                        58.18768730000,
+                        23.60990770000
+                    ],
+                    [
+                        58.18768100000,
+                        23.60990990000
+                    ],
+                    [
+                        58.18767500000,
+                        23.60991250000
+                    ],
+                    [
+                        58.18766910000,
+                        23.60991550000
+                    ],
+                    [
+                        58.18766350000,
+                        23.60991880000
+                    ],
+                    [
+                        58.18765810000,
+                        23.60992250000
+                    ],
+                    [
+                        58.18765300000,
+                        23.60992650000
+                    ],
+                    [
+                        58.18764830000,
+                        23.60993090000
+                    ],
+                    [
+                        58.18764380000,
+                        23.60993550000
+                    ],
+                    [
+                        58.18763980000,
+                        23.60994030000
+                    ],
+                    [
+                        58.18763600000,
+                        23.60994550000
+                    ],
+                    [
+                        58.18763270000,
+                        23.60995080000
+                    ],
+                    [
+                        58.18762980000,
+                        23.60995640000
+                    ],
+                    [
+                        58.18762730000,
+                        23.60996210000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "2F0",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18644520000,
+                        23.61158820000
+                    ],
+                    [
+                        58.18625740000,
+                        23.61152510000
+                    ],
+                    [
+                        58.18615670000,
+                        23.61177960000
+                    ],
+                    [
+                        58.18634450000,
+                        23.61184270000
+                    ],
+                    [
+                        58.18644520000,
+                        23.61158820000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3F5",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18666400000,
+                        23.60980080000
+                    ],
+                    [
+                        58.18638780000,
+                        23.60970800000
+                    ],
+                    [
+                        58.18631930000,
+                        23.60988110000
+                    ],
+                    [
+                        58.18659550000,
+                        23.60997390000
+                    ],
+                    [
+                        58.18666400000,
+                        23.60980080000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3F9",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18719300000,
+                        23.60978220000
+                    ],
+                    [
+                        58.18696190000,
+                        23.60970460000
+                    ],
+                    [
+                        58.18690030000,
+                        23.60973100000
+                    ],
+                    [
+                        58.18684620000,
+                        23.60986760000
+                    ],
+                    [
+                        58.18712250000,
+                        23.60996040000
+                    ],
+                    [
+                        58.18719300000,
+                        23.60978220000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 55",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18752560000,
+                        23.61003450000
+                    ],
+                    [
+                        58.18719873304,
+                        23.61086138106
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Shop No. 439",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18783840000,
+                        23.60918190000
+                    ],
+                    [
+                        58.18765420000,
+                        23.60912010000
+                    ],
+                    [
+                        58.18755525590,
+                        23.60936655539
+                    ],
+                    [
+                        58.18773770000,
+                        23.60943650000
+                    ],
+                    [
+                        58.18783840000,
+                        23.60918190000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "B",
+                "Layer": "Postal_Code",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18639337966,
+                        23.61105437197
+                    ],
+                    [
+                        58.18643941199,
+                        23.61110412971
+                    ],
+                    [
+                        58.18693331866,
+                        23.61126971361
+                    ],
+                    [
+                        58.18698013812,
+                        23.61126816912
+                    ],
+                    [
+                        58.18700912949,
+                        23.61125273346
+                    ],
+                    [
+                        58.18754244619,
+                        23.60991111543
+                    ],
+                    [
+                        58.18754115114,
+                        23.60988102025
+                    ],
+                    [
+                        58.18752127371,
+                        23.60985726643
+                    ],
+                    [
+                        58.18695103261,
+                        23.60966576762
+                    ],
+                    [
+                        58.18691508708,
+                        23.60967093983
+                    ],
+                    [
+                        58.18688212454,
+                        23.60969236080
+                    ],
+                    [
+                        58.18638020020,
+                        23.61099709864
+                    ],
+                    [
+                        58.18639337966,
+                        23.61105437197
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "554",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18713330000,
+                        23.61148290000
+                    ],
+                    [
+                        58.18694910000,
+                        23.61142100000
+                    ],
+                    [
+                        58.18684850000,
+                        23.61167550000
+                    ],
+                    [
+                        58.18703260000,
+                        23.61173740000
+                    ],
+                    [
+                        58.18713330000,
+                        23.61148290000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "Outer Road",
+                "highway": "tertiary",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18875871947,
+                        23.60937355688
+                    ],
+                    [
+                        58.18849281969,
+                        23.61008359457
+                    ],
+                    [
+                        58.18847235724,
+                        23.61013578155
+                    ],
+                    [
+                        58.18821987885,
+                        23.61078781470
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": ["DAD", "Flat 1", "Flat 2", "Flat 3"],
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18579160000,
+                        23.61029200000
+                    ],
+                    [
+                        58.18606780000,
+                        23.61038480000
+                    ],
+                    [
+                        58.18613630000,
+                        23.61021170000
+                    ],
+                    [
+                        58.18586010000,
+                        23.61011890000
+                    ],
+                    [
+                        58.18579160000,
+                        23.61029200000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3A7",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18789970000,
+                        23.61001960000
+                    ],
+                    [
+                        58.18788740000,
+                        23.61001550000
+                    ],
+                    [
+                        58.18774550000,
+                        23.60996780000
+                    ],
+                    [
+                        58.18768260000,
+                        23.60999480000
+                    ],
+                    [
+                        58.18762920000,
+                        23.61012980000
+                    ],
+                    [
+                        58.18759870000,
+                        23.61020690000
+                    ],
+                    [
+                        58.18763000000,
+                        23.61021740000
+                    ],
+                    [
+                        58.18778670000,
+                        23.61027010000
+                    ],
+                    [
+                        58.18779900000,
+                        23.61027420000
+                    ],
+                    [
+                        58.18789970000,
+                        23.61001960000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18869820181,
+                        23.60935462874
+                    ],
+                    [
+                        58.18875871947,
+                        23.60937355688
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "92E",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18660250000,
+                        23.61113860000
+                    ],
+                    [
+                        58.18677090000,
+                        23.61119510000
+                    ],
+                    [
+                        58.18688100000,
+                        23.61091750000
+                    ],
+                    [
+                        58.18670910000,
+                        23.61085970000
+                    ],
+                    [
+                        58.18660250000,
+                        23.61113860000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "391",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18785820000,
+                        23.61034210000
+                    ],
+                    [
+                        58.18763040000,
+                        23.61026560000
+                    ],
+                    [
+                        58.18758190000,
+                        23.61024930000
+                    ],
+                    [
+                        58.18751280000,
+                        23.61042410000
+                    ],
+                    [
+                        58.18763220000,
+                        23.61046420000
+                    ],
+                    [
+                        58.18778900000,
+                        23.61051690000
+                    ],
+                    [
+                        58.18785820000,
+                        23.61034210000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "EntityHandle": "D82"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18733820000,
+                        23.60933830000
+                    ],
+                    [
+                        58.18723890000,
+                        23.60959500000
+                    ],
+                    [
+                        58.18744500000,
+                        23.60966530000
+                    ],
+                    [
+                        58.18754190000,
+                        23.60940850000
+                    ],
+                    [
+                        58.18733820000,
+                        23.60933830000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "2D4",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18681360000,
+                        23.61171190000
+                    ],
+                    [
+                        58.18662940000,
+                        23.61165000000
+                    ],
+                    [
+                        58.18652870000,
+                        23.61190460000
+                    ],
+                    [
+                        58.18671290000,
+                        23.61196650000
+                    ],
+                    [
+                        58.18681360000,
+                        23.61171190000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "308",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18598380000,
+                        23.61143310000
+                    ],
+                    [
+                        58.18579590000,
+                        23.61137000000
+                    ],
+                    [
+                        58.18569520000,
+                        23.61162460000
+                    ],
+                    [
+                        58.18588300000,
+                        23.61168770000
+                    ],
+                    [
+                        58.18598380000,
+                        23.61143310000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "567",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18596010000,
+                        23.61078890000
+                    ],
+                    [
+                        58.18623640000,
+                        23.61088170000
+                    ],
+                    [
+                        58.18630480000,
+                        23.61070860000
+                    ],
+                    [
+                        58.18602860000,
+                        23.61061580000
+                    ],
+                    [
+                        58.18596010000,
+                        23.61078890000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "EntityHandle": "3E1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18656870000,
+                        23.61004170000
+                    ],
+                    [
+                        58.18659550000,
+                        23.60997390000
+                    ],
+                    [
+                        58.18631930000,
+                        23.60988110000
+                    ],
+                    [
+                        58.18625480000,
+                        23.61004400000
+                    ],
+                    [
+                        58.18625080000,
+                        23.61005410000
+                    ],
+                    [
+                        58.18652710000,
+                        23.61014690000
+                    ],
+                    [
+                        58.18656870000,
+                        23.61004170000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "Name": "abc Road",
+                "EntityHandle": "Way No. 55",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18727170000,
+                        23.61086110000
+                    ],
+                    [
+                        58.18711710000,
+                        23.61125180000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18713490000,
+                        23.61134170000
+                    ],
+                    [
+                        58.18713910000,
+                        23.61134590000
+                    ],
+                    [
+                        58.18714360000,
+                        23.61134990000
+                    ],
+                    [
+                        58.18714840000,
+                        23.61135360000
+                    ],
+                    [
+                        58.18715350000,
+                        23.61135700000
+                    ],
+                    [
+                        58.18715870000,
+                        23.61136020000
+                    ],
+                    [
+                        58.18716420000,
+                        23.61136300000
+                    ],
+                    [
+                        58.18716980000,
+                        23.61136540000
+                    ],
+                    [
+                        58.18717560000,
+                        23.61136760000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3A8",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18809680000,
+                        23.61008580000
+                    ],
+                    [
+                        58.18789970000,
+                        23.61001960000
+                    ],
+                    [
+                        58.18779900000,
+                        23.61027420000
+                    ],
+                    [
+                        58.18799600000,
+                        23.61034040000
+                    ],
+                    [
+                        58.18809680000,
+                        23.61008580000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 22",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18619240000,
+                        23.61134870000
+                    ],
+                    [
+                        58.18615520000,
+                        23.61144270000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "D86",
+                "Layer": "MARYAM_PLANNING",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18762020000,
+                        23.60973350000
+                    ],
+                    [
+                        58.18772360000,
+                        23.60947320000
+                    ],
+                    [
+                        58.18790520000,
+                        23.60953790000
+                    ],
+                    [
+                        58.18780510000,
+                        23.60979440000
+                    ],
+                    [
+                        58.18762020000,
+                        23.60973350000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 22",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18623750000,
+                        23.61123480000
+                    ],
+                    [
+                        58.18619240000,
+                        23.61134870000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 22",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18638830000,
+                        23.61117010000
+                    ],
+                    [
+                        58.18638060000,
+                        23.61116780000
+                    ],
+                    [
+                        58.18637290000,
+                        23.61116600000
+                    ],
+                    [
+                        58.18636490000,
+                        23.61116470000
+                    ],
+                    [
+                        58.18635700000,
+                        23.61116390000
+                    ],
+                    [
+                        58.18634890000,
+                        23.61116350000
+                    ],
+                    [
+                        58.18634090000,
+                        23.61116370000
+                    ],
+                    [
+                        58.18633290000,
+                        23.61116440000
+                    ],
+                    [
+                        58.18632500000,
+                        23.61116560000
+                    ],
+                    [
+                        58.18631720000,
+                        23.61116730000
+                    ],
+                    [
+                        58.18630950000,
+                        23.61116950000
+                    ],
+                    [
+                        58.18630200000,
+                        23.61117220000
+                    ],
+                    [
+                        58.18629470000,
+                        23.61117530000
+                    ],
+                    [
+                        58.18628770000,
+                        23.61117890000
+                    ],
+                    [
+                        58.18628090000,
+                        23.61118290000
+                    ],
+                    [
+                        58.18627450000,
+                        23.61118730000
+                    ],
+                    [
+                        58.18626840000,
+                        23.61119210000
+                    ],
+                    [
+                        58.18626270000,
+                        23.61119730000
+                    ],
+                    [
+                        58.18625740000,
+                        23.61120280000
+                    ],
+                    [
+                        58.18625250000,
+                        23.61120870000
+                    ],
+                    [
+                        58.18624800000,
+                        23.61121490000
+                    ],
+                    [
+                        58.18624400000,
+                        23.61122130000
+                    ],
+                    [
+                        58.18624050000,
+                        23.61122790000
+                    ],
+                    [
+                        58.18623750000,
+                        23.61123480000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18839488505,
+                        23.61010811621
+                    ],
+                    [
+                        58.18840459073,
+                        23.61011190235
+                    ],
+                    [
+                        58.18847235724,
+                        23.61013578155
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "565",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18582320000,
+                        23.61113500000
+                    ],
+                    [
+                        58.18609940000,
+                        23.61122780000
+                    ],
+                    [
+                        58.18616790000,
+                        23.61105480000
+                    ],
+                    [
+                        58.18589160000,
+                        23.61096200000
+                    ],
+                    [
+                        58.18582320000,
+                        23.61113500000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "55C",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18694910000,
+                        23.61142100000
+                    ],
+                    [
+                        58.18675270000,
+                        23.61135500000
+                    ],
+                    [
+                        58.18665190000,
+                        23.61160930000
+                    ],
+                    [
+                        58.18684850000,
+                        23.61167550000
+                    ],
+                    [
+                        58.18694910000,
+                        23.61142100000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "C",
+                "Layer": "Postal_Code",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18716996121,
+                        23.61133132388
+                    ],
+                    [
+                        58.18744961638,
+                        23.61142780423
+                    ],
+                    [
+                        58.18779329211,
+                        23.61153894684
+                    ],
+                    [
+                        58.18833924395,
+                        23.61016028383
+                    ],
+                    [
+                        58.18831216566,
+                        23.61012135366
+                    ],
+                    [
+                        58.18802577863,
+                        23.61002770807
+                    ],
+                    [
+                        58.18774339970,
+                        23.60992919848
+                    ],
+                    [
+                        58.18767218356,
+                        23.60993998595
+                    ],
+                    [
+                        58.18714751598,
+                        23.61125398323
+                    ],
+                    [
+                        58.18716996121,
+                        23.61133132388
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "558",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18675270000,
+                        23.61135500000
+                    ],
+                    [
+                        58.18672190000,
+                        23.61134470000
+                    ],
+                    [
+                        58.18658080000,
+                        23.61129730000
+                    ],
+                    [
+                        58.18656160000,
+                        23.61134590000
+                    ],
+                    [
+                        58.18648010000,
+                        23.61155180000
+                    ],
+                    [
+                        58.18665190000,
+                        23.61160930000
+                    ],
+                    [
+                        58.18675270000,
+                        23.61135500000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "431",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18688880000,
+                        23.60919940000
+                    ],
+                    [
+                        58.18669480000,
+                        23.60913420000
+                    ],
+                    [
+                        58.18659410000,
+                        23.60938870000
+                    ],
+                    [
+                        58.18678810000,
+                        23.60945390000
+                    ],
+                    [
+                        58.18688880000,
+                        23.60919940000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 44",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18678070000,
+                        23.60967730000
+                    ],
+                    [
+                        58.18663670000,
+                        23.61004110000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 99",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18783702615,
+                        23.61166905215
+                    ],
+                    [
+                        58.18786295560,
+                        23.61168393447
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "34D",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18804220000,
+                        23.61080000000
+                    ],
+                    [
+                        58.18776590000,
+                        23.61070720000
+                    ],
+                    [
+                        58.18769680000,
+                        23.61088200000
+                    ],
+                    [
+                        58.18797300000,
+                        23.61097480000
+                    ],
+                    [
+                        58.18804220000,
+                        23.61080000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "314",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18560810000,
+                        23.61130690000
+                    ],
+                    [
+                        58.18541560000,
+                        23.61124230000
+                    ],
+                    [
+                        58.18533170000,
+                        23.61145440000
+                    ],
+                    [
+                        58.18536090000,
+                        23.61151230000
+                    ],
+                    [
+                        58.18550730000,
+                        23.61156150000
+                    ],
+                    [
+                        58.18560810000,
+                        23.61130690000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "2EC",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18750540000,
+                        23.61160790000
+                    ],
+                    [
+                        58.18731750000,
+                        23.61154480000
+                    ],
+                    [
+                        58.18721680000,
+                        23.61179930000
+                    ],
+                    [
+                        58.18740460000,
+                        23.61186240000
+                    ],
+                    [
+                        58.18750540000,
+                        23.61160790000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3E5",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18745810000,
+                        23.61003490000
+                    ],
+                    [
+                        58.18749850000,
+                        23.60993290000
+                    ],
+                    [
+                        58.18746920000,
+                        23.60987500000
+                    ],
+                    [
+                        58.18723900000,
+                        23.60979770000
+                    ],
+                    [
+                        58.18716850000,
+                        23.60997590000
+                    ],
+                    [
+                        58.18734680000,
+                        23.61003570000
+                    ],
+                    [
+                        58.18744480000,
+                        23.61006870000
+                    ],
+                    [
+                        58.18745810000,
+                        23.61003490000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "300",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18713330000,
+                        23.61148290000
+                    ],
+                    [
+                        58.18694910000,
+                        23.61142100000
+                    ],
+                    [
+                        58.18684850000,
+                        23.61167550000
+                    ],
+                    [
+                        58.18703260000,
+                        23.61173740000
+                    ],
+                    [
+                        58.18713330000,
+                        23.61148290000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "EntityHandle": "361"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18598260000,
+                        23.61060030000
+                    ],
+                    [
+                        58.18570630000,
+                        23.61050750000
+                    ],
+                    [
+                        58.18563780000,
+                        23.61068060000
+                    ],
+                    [
+                        58.18591410000,
+                        23.61077340000
+                    ],
+                    [
+                        58.18598260000,
+                        23.61060030000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18761533379,
+                        23.61236508519
+                    ],
+                    [
+                        58.18752122385,
+                        23.61233496968
+                    ],
+                    [
+                        58.18698385531,
+                        23.61216300975
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "355",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18771990000,
+                        23.61069170000
+                    ],
+                    [
+                        58.18763400000,
+                        23.61066290000
+                    ],
+                    [
+                        58.18744360000,
+                        23.61059890000
+                    ],
+                    [
+                        58.18737450000,
+                        23.61077370000
+                    ],
+                    [
+                        58.18763580000,
+                        23.61086150000
+                    ],
+                    [
+                        58.18765070000,
+                        23.61086650000
+                    ],
+                    [
+                        58.18771990000,
+                        23.61069170000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "Name": "abc Road",
+                "EntityHandle": "Way No. 55",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18759880000,
+                        23.61003400000
+                    ],
+                    [
+                        58.18727170000,
+                        23.61086110000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 44",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18638418972,
+                        23.61086739654
+                    ],
+                    [
+                        58.18634077077,
+                        23.61097139722
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "324",
+                "Linetype": "ByBlock",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18746380000,
+                        23.61133900000
+                    ],
+                    [
+                        58.18751240000,
+                        23.61121610000
+                    ],
+                    [
+                        58.18723610000,
+                        23.61112330000
+                    ],
+                    [
+                        58.18718210000,
+                        23.61125990000
+                    ],
+                    [
+                        58.18721080000,
+                        23.61131660000
+                    ],
+                    [
+                        58.18728160000,
+                        23.61134040000
+                    ],
+                    [
+                        58.18744190000,
+                        23.61139430000
+                    ],
+                    [
+                        58.18746380000,
+                        23.61133900000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18606546929,
+                        23.60934284424
+                    ],
+                    [
+                        58.18672227210,
+                        23.60956165383
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "56D",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18740460000,
+                        23.61186240000
+                    ],
+                    [
+                        58.18759500000,
+                        23.61192640000
+                    ],
+                    [
+                        58.18768030000,
+                        23.61171470000
+                    ],
+                    [
+                        58.18765100000,
+                        23.61165680000
+                    ],
+                    [
+                        58.18750540000,
+                        23.61160790000
+                    ],
+                    [
+                        58.18740460000,
+                        23.61186240000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18692740000,
+                        23.61128390000
+                    ],
+                    [
+                        58.18693380000,
+                        23.61128580000
+                    ],
+                    [
+                        58.18694030000,
+                        23.61128740000
+                    ],
+                    [
+                        58.18694690000,
+                        23.61128850000
+                    ],
+                    [
+                        58.18695350000,
+                        23.61128910000
+                    ],
+                    [
+                        58.18696020000,
+                        23.61128940000
+                    ],
+                    [
+                        58.18696690000,
+                        23.61128920000
+                    ],
+                    [
+                        58.18697360000,
+                        23.61128870000
+                    ],
+                    [
+                        58.18698020000,
+                        23.61128770000
+                    ],
+                    [
+                        58.18698670000,
+                        23.61128620000
+                    ],
+                    [
+                        58.18699310000,
+                        23.61128440000
+                    ],
+                    [
+                        58.18699930000,
+                        23.61128220000
+                    ],
+                    [
+                        58.18700540000,
+                        23.61127960000
+                    ],
+                    [
+                        58.18701120000,
+                        23.61127660000
+                    ],
+                    [
+                        58.18701690000,
+                        23.61127330000
+                    ],
+                    [
+                        58.18702220000,
+                        23.61126960000
+                    ],
+                    [
+                        58.18702730000,
+                        23.61126560000
+                    ],
+                    [
+                        58.18703210000,
+                        23.61126130000
+                    ],
+                    [
+                        58.18703650000,
+                        23.61125660000
+                    ],
+                    [
+                        58.18704060000,
+                        23.61125180000
+                    ],
+                    [
+                        58.18704430000,
+                        23.61124660000
+                    ],
+                    [
+                        58.18704770000,
+                        23.61124130000
+                    ],
+                    [
+                        58.18705060000,
+                        23.61123570000
+                    ],
+                    [
+                        58.18705310000,
+                        23.61123000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18759080000,
+                        23.61150710000
+                    ],
+                    [
+                        58.18782843476,
+                        23.61157540814
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "D85",
+                "Layer": "MARYAM_PLANNING",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18827540000,
+                        23.60966150000
+                    ],
+                    [
+                        58.18817460000,
+                        23.60991670000
+                    ],
+                    [
+                        58.18832000000,
+                        23.60996860000
+                    ],
+                    [
+                        58.18838160000,
+                        23.60994210000
+                    ],
+                    [
+                        58.18846720000,
+                        23.60972600000
+                    ],
+                    [
+                        58.18827540000,
+                        23.60966150000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "92F",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18699190000,
+                        23.61121330000
+                    ],
+                    [
+                        58.18708220000,
+                        23.61098510000
+                    ],
+                    [
+                        58.18688100000,
+                        23.61091750000
+                    ],
+                    [
+                        58.18677090000,
+                        23.61119510000
+                    ],
+                    [
+                        58.18691870000,
+                        23.61124480000
+                    ],
+                    [
+                        58.18699190000,
+                        23.61121330000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 99",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18638830000,
+                        23.61117010000
+                    ],
+                    [
+                        58.18690380000,
+                        23.61134330000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "3BD",
+                "Linetype": "ByBlock",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18652710000,
+                        23.61014690000
+                    ],
+                    [
+                        58.18625080000,
+                        23.61005410000
+                    ],
+                    [
+                        58.18618230000,
+                        23.61022720000
+                    ],
+                    [
+                        58.18645860000,
+                        23.61032000000
+                    ],
+                    [
+                        58.18652710000,
+                        23.61014690000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "56C",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18755840000,
+                        23.61123160000
+                    ],
+                    [
+                        58.18748790000,
+                        23.61140980000
+                    ],
+                    [
+                        58.18771840000,
+                        23.61148770000
+                    ],
+                    [
+                        58.18778100000,
+                        23.61146010000
+                    ],
+                    [
+                        58.18783470000,
+                        23.61132440000
+                    ],
+                    [
+                        58.18755840000,
+                        23.61123160000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18821987885,
+                        23.61078781470
+                    ],
+                    [
+                        58.18789685362,
+                        23.61159555137
+                    ],
+                    [
+                        58.18786295560,
+                        23.61168393447
+                    ],
+                    [
+                        58.18761533379,
+                        23.61236508519
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "Shop No. D7F",
+                "Layer": "shop",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18730910000,
+                        23.60928160000
+                    ],
+                    [
+                        58.18740540000,
+                        23.60902460000
+                    ],
+                    [
+                        58.18719800000,
+                        23.60896250000
+                    ],
+                    [
+                        58.18709710000,
+                        23.60921720000
+                    ],
+                    [
+                        58.18730910000,
+                        23.60928160000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18634077077,
+                        23.61097139722
+                    ],
+                    [
+                        58.18633860000,
+                        23.61097900000
+                    ],
+                    [
+                        58.18633670000,
+                        23.61098610000
+                    ],
+                    [
+                        58.18633520000,
+                        23.61099340000
+                    ],
+                    [
+                        58.18633440000,
+                        23.61100080000
+                    ],
+                    [
+                        58.18633400000,
+                        23.61100820000
+                    ],
+                    [
+                        58.18633420000,
+                        23.61101560000
+                    ],
+                    [
+                        58.18633500000,
+                        23.61102290000
+                    ],
+                    [
+                        58.18633630000,
+                        23.61103020000
+                    ],
+                    [
+                        58.18633810000,
+                        23.61103740000
+                    ],
+                    [
+                        58.18634050000,
+                        23.61104450000
+                    ],
+                    [
+                        58.18634340000,
+                        23.61105140000
+                    ],
+                    [
+                        58.18634680000,
+                        23.61105810000
+                    ],
+                    [
+                        58.18635060000,
+                        23.61106460000
+                    ],
+                    [
+                        58.18635500000,
+                        23.61107080000
+                    ],
+                    [
+                        58.18635980000,
+                        23.61107680000
+                    ],
+                    [
+                        58.18636500000,
+                        23.61108240000
+                    ],
+                    [
+                        58.18637070000,
+                        23.61108770000
+                    ],
+                    [
+                        58.18637670000,
+                        23.61109260000
+                    ],
+                    [
+                        58.18638300000,
+                        23.61109710000
+                    ],
+                    [
+                        58.18638970000,
+                        23.61110120000
+                    ],
+                    [
+                        58.18639670000,
+                        23.61110490000
+                    ],
+                    [
+                        58.18640390000,
+                        23.61110810000
+                    ],
+                    [
+                        58.18641237354,
+                        23.61111040667
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 11",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18869820181,
+                        23.60935462874
+                    ],
+                    [
+                        58.18842294089,
+                        23.61005570002
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "Layer": "00_resid",
+                "EntityHandle": "385",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18605100000,
+                        23.61042720000
+                    ],
+                    [
+                        58.18577480000,
+                        23.61033440000
+                    ],
+                    [
+                        58.18570630000,
+                        23.61050750000
+                    ],
+                    [
+                        58.18598260000,
+                        23.61060030000
+                    ],
+                    [
+                        58.18605100000,
+                        23.61042720000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "449",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18650080000,
+                        23.60906900000
+                    ],
+                    [
+                        58.18630190000,
+                        23.60900220000
+                    ],
+                    [
+                        58.18621800000,
+                        23.60921430000
+                    ],
+                    [
+                        58.18624720000,
+                        23.60927220000
+                    ],
+                    [
+                        58.18640010000,
+                        23.60932360000
+                    ],
+                    [
+                        58.18650080000,
+                        23.60906900000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "415",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18641030000,
+                        23.60951930000
+                    ],
+                    [
+                        58.18618010000,
+                        23.60944190000
+                    ],
+                    [
+                        58.18611730000,
+                        23.60946890000
+                    ],
+                    [
+                        58.18606550000,
+                        23.60959970000
+                    ],
+                    [
+                        58.18634170000,
+                        23.60969250000
+                    ],
+                    [
+                        58.18641030000,
+                        23.60951930000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18750891521,
+                        23.60982627464
+                    ],
+                    [
+                        58.18776062185,
+                        23.60991041839
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "318",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18656160000,
+                        23.61134590000
+                    ],
+                    [
+                        58.18658080000,
+                        23.61129730000
+                    ],
+                    [
+                        58.18638820000,
+                        23.61123260000
+                    ],
+                    [
+                        58.18632540000,
+                        23.61125950000
+                    ],
+                    [
+                        58.18629040000,
+                        23.61134800000
+                    ],
+                    [
+                        58.18624150000,
+                        23.61147170000
+                    ],
+                    [
+                        58.18648010000,
+                        23.61155180000
+                    ],
+                    [
+                        58.18656160000,
+                        23.61134590000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3C1",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18705330000,
+                        23.61013520000
+                    ],
+                    [
+                        58.18677710000,
+                        23.61004240000
+                    ],
+                    [
+                        58.18670790000,
+                        23.61021720000
+                    ],
+                    [
+                        58.18698420000,
+                        23.61031000000
+                    ],
+                    [
+                        58.18705330000,
+                        23.61013520000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "56F",
+                "Layer": "commercial",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18615670000,
+                        23.61177960000
+                    ],
+                    [
+                        58.18592910000,
+                        23.61170320000
+                    ],
+                    [
+                        58.18602980000,
+                        23.61144860000
+                    ],
+                    [
+                        58.18625740000,
+                        23.61152510000
+                    ],
+                    [
+                        58.18615670000,
+                        23.61177960000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18697080000,
+                        23.60964510000
+                    ],
+                    [
+                        58.18698405133,
+                        23.60964959370
+                    ],
+                    [
+                        58.18750430061,
+                        23.60982486307
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "409",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18671580000,
+                        23.60967000000
+                    ],
+                    [
+                        58.18668650000,
+                        23.60961210000
+                    ],
+                    [
+                        58.18645630000,
+                        23.60953470000
+                    ],
+                    [
+                        58.18638780000,
+                        23.60970800000
+                    ],
+                    [
+                        58.18666400000,
+                        23.60980080000
+                    ],
+                    [
+                        58.18671580000,
+                        23.60967000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3D5",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18620250000,
+                        23.61004440000
+                    ],
+                    [
+                        58.18620480000,
+                        23.61003870000
+                    ],
+                    [
+                        58.18592850000,
+                        23.60994590000
+                    ],
+                    [
+                        58.18586010000,
+                        23.61011890000
+                    ],
+                    [
+                        58.18606940000,
+                        23.61018930000
+                    ],
+                    [
+                        58.18613630000,
+                        23.61021170000
+                    ],
+                    [
+                        58.18620250000,
+                        23.61004440000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "Layer": "MARYAM_PLANNING",
+                "EntityHandle": "D84",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18808960000,
+                        23.60959940000
+                    ],
+                    [
+                        58.18798890000,
+                        23.60985730000
+                    ],
+                    [
+                        58.18817460000,
+                        23.60991670000
+                    ],
+                    [
+                        58.18827540000,
+                        23.60966150000
+                    ],
+                    [
+                        58.18808960000,
+                        23.60959940000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "D",
+                "Layer": "Postal_Code",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18704866389,
+                        23.60955765909
+                    ],
+                    [
+                        58.18733505780,
+                        23.60966031542
+                    ],
+                    [
+                        58.18768210290,
+                        23.60978380886
+                    ],
+                    [
+                        58.18833654272,
+                        23.60999898169
+                    ],
+                    [
+                        58.18839989260,
+                        23.61001981044
+                    ],
+                    [
+                        58.18842180376,
+                        23.60996225470
+                    ],
+                    [
+                        58.18861641916,
+                        23.60945104225
+                    ],
+                    [
+                        58.18863900395,
+                        23.60939171678
+                    ],
+                    [
+                        58.18856969882,
+                        23.60936866108
+                    ],
+                    [
+                        58.18647434397,
+                        23.60867455800
+                    ],
+                    [
+                        58.18640530048,
+                        23.60865873735
+                    ],
+                    [
+                        58.18636836681,
+                        23.60870942714
+                    ],
+                    [
+                        58.18616721031,
+                        23.60919643212
+                    ],
+                    [
+                        58.18615355186,
+                        23.60925648492
+                    ],
+                    [
+                        58.18618792565,
+                        23.60928745512
+                    ],
+                    [
+                        58.18704866389,
+                        23.60955765909
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Shop No. 419",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18839090000,
+                        23.60936750000
+                    ],
+                    [
+                        58.18820670000,
+                        23.60930570000
+                    ],
+                    [
+                        58.18810600000,
+                        23.60956020000
+                    ],
+                    [
+                        58.18829010000,
+                        23.60962210000
+                    ],
+                    [
+                        58.18839090000,
+                        23.60936750000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Shop No. 42D",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18802250000,
+                        23.60924380000
+                    ],
+                    [
+                        58.18783840000,
+                        23.60918190000
+                    ],
+                    [
+                        58.18773770000,
+                        23.60943650000
+                    ],
+                    [
+                        58.18792180000,
+                        23.60949830000
+                    ],
+                    [
+                        58.18802250000,
+                        23.60924380000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "Layer": "00_resid",
+                "EntityHandle": "980",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18677710000,
+                        23.61004240000
+                    ],
+                    [
+                        58.18705330000,
+                        23.61013520000
+                    ],
+                    [
+                        58.18712250000,
+                        23.60996040000
+                    ],
+                    [
+                        58.18684620000,
+                        23.60986760000
+                    ],
+                    [
+                        58.18677710000,
+                        23.61004240000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 99",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18690380000,
+                        23.61134330000
+                    ],
+                    [
+                        58.18759213670,
+                        23.61157425414
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "933",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18660250000,
+                        23.61113860000
+                    ],
+                    [
+                        58.18645930000,
+                        23.61109190000
+                    ],
+                    [
+                        58.18643000000,
+                        23.61103410000
+                    ],
+                    [
+                        58.18652080000,
+                        23.61079640000
+                    ],
+                    [
+                        58.18670940000,
+                        23.61085980000
+                    ],
+                    [
+                        58.18660250000,
+                        23.61113860000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18717560000,
+                        23.61136760000
+                    ],
+                    [
+                        58.18759080000,
+                        23.61150710000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "379",
+                "Linetype": "ByBlock",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18818050000,
+                        23.61045040000
+                    ],
+                    [
+                        58.18790420000,
+                        23.61035760000
+                    ],
+                    [
+                        58.18783510000,
+                        23.61053240000
+                    ],
+                    [
+                        58.18811130000,
+                        23.61062520000
+                    ],
+                    [
+                        58.18818050000,
+                        23.61045040000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "445",
+                "Linetype": "ByBlock",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18669480000,
+                        23.60913420000
+                    ],
+                    [
+                        58.18650080000,
+                        23.60906900000
+                    ],
+                    [
+                        58.18640010000,
+                        23.60932360000
+                    ],
+                    [
+                        58.18659410000,
+                        23.60938870000
+                    ],
+                    [
+                        58.18669480000,
+                        23.60913420000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Connector",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18609080000,
+                        23.61142100000
+                    ],
+                    [
+                        58.18615520000,
+                        23.61144270000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Shop No. 425",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18820670000,
+                        23.60930570000
+                    ],
+                    [
+                        58.18802250000,
+                        23.60924380000
+                    ],
+                    [
+                        58.18792180000,
+                        23.60949830000
+                    ],
+                    [
+                        58.18810600000,
+                        23.60956020000
+                    ],
+                    [
+                        58.18820670000,
+                        23.60930570000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "32C",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18577710000,
+                        23.61111960000
+                    ],
+                    [
+                        58.18550090000,
+                        23.61102680000
+                    ],
+                    [
+                        58.18543240000,
+                        23.61119980000
+                    ],
+                    [
+                        58.18570860000,
+                        23.61129260000
+                    ],
+                    [
+                        58.18577710000,
+                        23.61111960000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3E4",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18744480000,
+                        23.61006870000
+                    ],
+                    [
+                        58.18734680000,
+                        23.61003570000
+                    ],
+                    [
+                        58.18716850000,
+                        23.60997590000
+                    ],
+                    [
+                        58.18714420000,
+                        23.61003730000
+                    ],
+                    [
+                        58.18709940000,
+                        23.61015070000
+                    ],
+                    [
+                        58.18737560000,
+                        23.61024350000
+                    ],
+                    [
+                        58.18744480000,
+                        23.61006870000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop",
+                "EntityHandle": "Shop No. 461"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18699490000,
+                        23.60889860000
+                    ],
+                    [
+                        58.18679230000,
+                        23.60883050000
+                    ],
+                    [
+                        58.18669160000,
+                        23.60908510000
+                    ],
+                    [
+                        58.18689420000,
+                        23.60915310000
+                    ],
+                    [
+                        58.18699490000,
+                        23.60889860000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18698385531,
+                        23.61216300975
+                    ],
+                    [
+                        58.18603360000,
+                        23.61184910000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "2F8",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18731750000,
+                        23.61154480000
+                    ],
+                    [
+                        58.18713330000,
+                        23.61148290000
+                    ],
+                    [
+                        58.18703260000,
+                        23.61173740000
+                    ],
+                    [
+                        58.18721680000,
+                        23.61179930000
+                    ],
+                    [
+                        58.18731750000,
+                        23.61154480000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "32C",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18698420000,
+                        23.61031000000
+                    ],
+                    [
+                        58.18670790000,
+                        23.61021720000
+                    ],
+                    [
+                        58.18663880000,
+                        23.61039200000
+                    ],
+                    [
+                        58.18691500000,
+                        23.61048480000
+                    ],
+                    [
+                        58.18698420000,
+                        23.61031000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "56E",
+                "Layer": "commercial",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18737830000,
+                        23.61190160000
+                    ],
+                    [
+                        58.18757950000,
+                        23.61196920000
+                    ],
+                    [
+                        58.18749560000,
+                        23.61218140000
+                    ],
+                    [
+                        58.18743280000,
+                        23.61220830000
+                    ],
+                    [
+                        58.18727760000,
+                        23.61215620000
+                    ],
+                    [
+                        58.18737830000,
+                        23.61190160000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "34D",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18591410000,
+                        23.61077340000
+                    ],
+                    [
+                        58.18563780000,
+                        23.61068060000
+                    ],
+                    [
+                        58.18556940000,
+                        23.61085370000
+                    ],
+                    [
+                        58.18584560000,
+                        23.61094650000
+                    ],
+                    [
+                        58.18591410000,
+                        23.61077340000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18711710000,
+                        23.61125180000
+                    ],
+                    [
+                        58.18711510000,
+                        23.61125750000
+                    ],
+                    [
+                        58.18711350000,
+                        23.61126330000
+                    ],
+                    [
+                        58.18711230000,
+                        23.61126920000
+                    ],
+                    [
+                        58.18711150000,
+                        23.61127510000
+                    ],
+                    [
+                        58.18711120000,
+                        23.61128110000
+                    ],
+                    [
+                        58.18711130000,
+                        23.61128710000
+                    ],
+                    [
+                        58.18711180000,
+                        23.61129300000
+                    ],
+                    [
+                        58.18711280000,
+                        23.61129900000
+                    ],
+                    [
+                        58.18711410000,
+                        23.61130480000
+                    ],
+                    [
+                        58.18711590000,
+                        23.61131060000
+                    ],
+                    [
+                        58.18711810000,
+                        23.61131620000
+                    ],
+                    [
+                        58.18712070000,
+                        23.61132170000
+                    ],
+                    [
+                        58.18712370000,
+                        23.61132700000
+                    ],
+                    [
+                        58.18712710000,
+                        23.61133210000
+                    ],
+                    [
+                        58.18713080000,
+                        23.61133700000
+                    ],
+                    [
+                        58.18713490000,
+                        23.61134170000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "33C",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18584560000,
+                        23.61094650000
+                    ],
+                    [
+                        58.18556940000,
+                        23.61085370000
+                    ],
+                    [
+                        58.18550090000,
+                        23.61102680000
+                    ],
+                    [
+                        58.18577710000,
+                        23.61111960000
+                    ],
+                    [
+                        58.18584560000,
+                        23.61094650000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18636869739,
+                        23.60860473175
+                    ],
+                    [
+                        58.18609734446,
+                        23.60925376720
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "2CC",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18699770000,
+                        23.61177380000
+                    ],
+                    [
+                        58.18681360000,
+                        23.61171190000
+                    ],
+                    [
+                        58.18671290000,
+                        23.61196650000
+                    ],
+                    [
+                        58.18689700000,
+                        23.61202830000
+                    ],
+                    [
+                        58.18699770000,
+                        23.61177380000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "EntityHandle": "Outer Road",
+                "highway": "tertiary",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18524380000,
+                        23.61143930000
+                    ],
+                    [
+                        58.18524030000,
+                        23.61144830000
+                    ],
+                    [
+                        58.18523780000,
+                        23.61145730000
+                    ],
+                    [
+                        58.18523600000,
+                        23.61146640000
+                    ],
+                    [
+                        58.18523490000,
+                        23.61147550000
+                    ],
+                    [
+                        58.18523450000,
+                        23.61148480000
+                    ],
+                    [
+                        58.18523480000,
+                        23.61149400000
+                    ],
+                    [
+                        58.18523570000,
+                        23.61150320000
+                    ],
+                    [
+                        58.18523730000,
+                        23.61151240000
+                    ],
+                    [
+                        58.18523960000,
+                        23.61152140000
+                    ],
+                    [
+                        58.18524260000,
+                        23.61153020000
+                    ],
+                    [
+                        58.18524620000,
+                        23.61153880000
+                    ],
+                    [
+                        58.18525040000,
+                        23.61154720000
+                    ],
+                    [
+                        58.18525530000,
+                        23.61155530000
+                    ],
+                    [
+                        58.18526070000,
+                        23.61156310000
+                    ],
+                    [
+                        58.18526670000,
+                        23.61157050000
+                    ],
+                    [
+                        58.18527330000,
+                        23.61157750000
+                    ],
+                    [
+                        58.18528030000,
+                        23.61158410000
+                    ],
+                    [
+                        58.18528780000,
+                        23.61159030000
+                    ],
+                    [
+                        58.18529580000,
+                        23.61159590000
+                    ],
+                    [
+                        58.18530410000,
+                        23.61160110000
+                    ],
+                    [
+                        58.18531280000,
+                        23.61160570000
+                    ],
+                    [
+                        58.18532190000,
+                        23.61160970000
+                    ],
+                    [
+                        58.18533120000,
+                        23.61161320000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18842053036,
+                        23.61006084382
+                    ],
+                    [
+                        58.18843230065,
+                        23.61006448787
+                    ],
+                    [
+                        58.18849281969,
+                        23.61008359457
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 55",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18756280000,
+                        23.60994040000
+                    ],
+                    [
+                        58.18752560000,
+                        23.61003450000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "85A",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18756280000,
+                        23.60994040000
+                    ],
+                    [
+                        58.18756490000,
+                        23.60993460000
+                    ],
+                    [
+                        58.18756650000,
+                        23.60992860000
+                    ],
+                    [
+                        58.18756770000,
+                        23.60992250000
+                    ],
+                    [
+                        58.18756850000,
+                        23.60991640000
+                    ],
+                    [
+                        58.18756880000,
+                        23.60991020000
+                    ],
+                    [
+                        58.18756860000,
+                        23.60990410000
+                    ],
+                    [
+                        58.18756790000,
+                        23.60989790000
+                    ],
+                    [
+                        58.18756690000,
+                        23.60989190000
+                    ],
+                    [
+                        58.18756530000,
+                        23.60988590000
+                    ],
+                    [
+                        58.18756340000,
+                        23.60988000000
+                    ],
+                    [
+                        58.18756100000,
+                        23.60987420000
+                    ],
+                    [
+                        58.18755810000,
+                        23.60986860000
+                    ],
+                    [
+                        58.18755490000,
+                        23.60986320000
+                    ],
+                    [
+                        58.18755130000,
+                        23.60985800000
+                    ],
+                    [
+                        58.18754730000,
+                        23.60985310000
+                    ],
+                    [
+                        58.18754290000,
+                        23.60984840000
+                    ],
+                    [
+                        58.18753820000,
+                        23.60984400000
+                    ],
+                    [
+                        58.18753320000,
+                        23.60983990000
+                    ],
+                    [
+                        58.18752790000,
+                        23.60983620000
+                    ],
+                    [
+                        58.18752230000,
+                        23.60983270000
+                    ],
+                    [
+                        58.18751650000,
+                        23.60982970000
+                    ],
+                    [
+                        58.18750891521,
+                        23.60982627464
+                    ],
+                    [
+                        58.18750430061,
+                        23.60982486307
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 77",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18608911224,
+                        23.60927215055
+                    ],
+                    [
+                        58.18842053036,
+                        23.61006084382
+                    ],
+                    [
+                        58.18842294089,
+                        23.61005570002
+                    ],
+                    [
+                        58.18842053036,
+                        23.61006084382
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "381",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18730650000,
+                        23.61041820000
+                    ],
+                    [
+                        58.18703020000,
+                        23.61032540000
+                    ],
+                    [
+                        58.18696110000,
+                        23.61050020000
+                    ],
+                    [
+                        58.18723730000,
+                        23.61059300000
+                    ],
+                    [
+                        58.18730650000,
+                        23.61041820000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 33",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18678010000,
+                        23.60967750000
+                    ],
+                    [
+                        58.18678220000,
+                        23.60967170000
+                    ],
+                    [
+                        58.18678390000,
+                        23.60966570000
+                    ],
+                    [
+                        58.18678510000,
+                        23.60965960000
+                    ],
+                    [
+                        58.18678580000,
+                        23.60965350000
+                    ],
+                    [
+                        58.18678610000,
+                        23.60964730000
+                    ],
+                    [
+                        58.18678590000,
+                        23.60964120000
+                    ],
+                    [
+                        58.18678530000,
+                        23.60963500000
+                    ],
+                    [
+                        58.18678420000,
+                        23.60962900000
+                    ],
+                    [
+                        58.18678270000,
+                        23.60962300000
+                    ],
+                    [
+                        58.18678070000,
+                        23.60961710000
+                    ],
+                    [
+                        58.18677830000,
+                        23.60961130000
+                    ],
+                    [
+                        58.18677540000,
+                        23.60960570000
+                    ],
+                    [
+                        58.18677220000,
+                        23.60960030000
+                    ],
+                    [
+                        58.18676860000,
+                        23.60959510000
+                    ],
+                    [
+                        58.18676460000,
+                        23.60959020000
+                    ],
+                    [
+                        58.18676020000,
+                        23.60958550000
+                    ],
+                    [
+                        58.18675550000,
+                        23.60958110000
+                    ],
+                    [
+                        58.18675050000,
+                        23.60957700000
+                    ],
+                    [
+                        58.18674520000,
+                        23.60957330000
+                    ],
+                    [
+                        58.18673970000,
+                        23.60956980000
+                    ],
+                    [
+                        58.18673390000,
+                        23.60956680000
+                    ],
+                    [
+                        58.18672624943,
+                        23.60956256030
+                    ],
+                    [
+                        58.18672227210,
+                        23.60956165383
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 44",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18663670000,
+                        23.61004110000
+                    ],
+                    [
+                        58.18630950000,
+                        23.61086830000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "399",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18645860000,
+                        23.61032000000
+                    ],
+                    [
+                        58.18618230000,
+                        23.61022720000
+                    ],
+                    [
+                        58.18611390000,
+                        23.61040030000
+                    ],
+                    [
+                        58.18639010000,
+                        23.61049310000
+                    ],
+                    [
+                        58.18645860000,
+                        23.61032000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 55",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18762730000,
+                        23.60996210000
+                    ],
+                    [
+                        58.18759880000,
+                        23.61003400000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Outer Road",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18609734446,
+                        23.60925376720
+                    ],
+                    [
+                        58.18608911224,
+                        23.60927215055
+                    ],
+                    [
+                        58.18606546929,
+                        23.60934284424
+                    ],
+                    [
+                        58.18524380000,
+                        23.61143930000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 88",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18782843476,
+                        23.61157540814
+                    ],
+                    [
+                        58.18789685362,
+                        23.61159555137
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "2C4",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18718190000,
+                        23.61183570000
+                    ],
+                    [
+                        58.18699770000,
+                        23.61177380000
+                    ],
+                    [
+                        58.18689700000,
+                        23.61202830000
+                    ],
+                    [
+                        58.18708120000,
+                        23.61209020000
+                    ],
+                    [
+                        58.18718190000,
+                        23.61183570000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "2BC",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18737830000,
+                        23.61190160000
+                    ],
+                    [
+                        58.18718190000,
+                        23.61183570000
+                    ],
+                    [
+                        58.18708120000,
+                        23.61209020000
+                    ],
+                    [
+                        58.18727760000,
+                        23.61215620000
+                    ],
+                    [
+                        58.18737830000,
+                        23.61190160000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 44",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18670950000,
+                        23.61004080000
+                    ],
+                    [
+                        58.18638418972,
+                        23.61086739654
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "commercial",
+                "EntityHandle": "2E0",
+                "Linetype": "commercial",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18662940000,
+                        23.61165000000
+                    ],
+                    [
+                        58.18644520000,
+                        23.61158820000
+                    ],
+                    [
+                        58.18634450000,
+                        23.61184270000
+                    ],
+                    [
+                        58.18652870000,
+                        23.61190460000
+                    ],
+                    [
+                        58.18662940000,
+                        23.61165000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "56B",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18762760000,
+                        23.61105680000
+                    ],
+                    [
+                        58.18790380000,
+                        23.61114960000
+                    ],
+                    [
+                        58.18783470000,
+                        23.61132440000
+                    ],
+                    [
+                        58.18755840000,
+                        23.61123160000
+                    ],
+                    [
+                        58.18762760000,
+                        23.61105680000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 99",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18759213670,
+                        23.61157425414
+                    ],
+                    [
+                        58.18779937565,
+                        23.61165314278
+                    ],
+                    [
+                        58.18783702615,
+                        23.61166905215
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Layer": "shop",
+                "EntityHandle": "Shop No. 469",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Linetype": "shop"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18679230000,
+                        23.60883050000
+                    ],
+                    [
+                        58.18660820000,
+                        23.60876860000
+                    ],
+                    [
+                        58.18650750000,
+                        23.60902320000
+                    ],
+                    [
+                        58.18669160000,
+                        23.60908510000
+                    ],
+                    [
+                        58.18679230000,
+                        23.60883050000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 55",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18719873304,
+                        23.61086138106
+                    ],
+                    [
+                        58.18705310000,
+                        23.61123000000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3A5",
+                "Layer": "00_resid",
+                "SubClasses": "AcDbEntity:AcDbPolyline"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18737560000,
+                        23.61024350000
+                    ],
+                    [
+                        58.18709940000,
+                        23.61015070000
+                    ],
+                    [
+                        58.18703020000,
+                        23.61032540000
+                    ],
+                    [
+                        58.18730650000,
+                        23.61041820000
+                    ],
+                    [
+                        58.18737560000,
+                        23.61024350000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "3A9",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18828120000,
+                        23.61019580000
+                    ],
+                    [
+                        58.18825190000,
+                        23.61013790000
+                    ],
+                    [
+                        58.18809680000,
+                        23.61008580000
+                    ],
+                    [
+                        58.18799600000,
+                        23.61034040000
+                    ],
+                    [
+                        58.18819720000,
+                        23.61040800000
+                    ],
+                    [
+                        58.18828120000,
+                        23.61019580000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "E7",
+                "SubClasses": "AcDbEntity:AcDbCircle:AcDbArc",
+                "Layer": "ROAD",
+                "Linetype": "Continuous"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18697080000,
+                        23.60964510000
+                    ],
+                    [
+                        58.18696440000,
+                        23.60964320000
+                    ],
+                    [
+                        58.18695790000,
+                        23.60964170000
+                    ],
+                    [
+                        58.18695130000,
+                        23.60964060000
+                    ],
+                    [
+                        58.18694470000,
+                        23.60963990000
+                    ],
+                    [
+                        58.18693800000,
+                        23.60963960000
+                    ],
+                    [
+                        58.18693130000,
+                        23.60963980000
+                    ],
+                    [
+                        58.18692470000,
+                        23.60964040000
+                    ],
+                    [
+                        58.18691810000,
+                        23.60964140000
+                    ],
+                    [
+                        58.18691150000,
+                        23.60964280000
+                    ],
+                    [
+                        58.18690510000,
+                        23.60964460000
+                    ],
+                    [
+                        58.18689890000,
+                        23.60964680000
+                    ],
+                    [
+                        58.18689280000,
+                        23.60964940000
+                    ],
+                    [
+                        58.18688700000,
+                        23.60965240000
+                    ],
+                    [
+                        58.18688130000,
+                        23.60965570000
+                    ],
+                    [
+                        58.18687600000,
+                        23.60965940000
+                    ],
+                    [
+                        58.18687090000,
+                        23.60966340000
+                    ],
+                    [
+                        58.18686610000,
+                        23.60966770000
+                    ],
+                    [
+                        58.18686170000,
+                        23.60967240000
+                    ],
+                    [
+                        58.18685760000,
+                        23.60967720000
+                    ],
+                    [
+                        58.18685390000,
+                        23.60968240000
+                    ],
+                    [
+                        58.18685060000,
+                        23.60968770000
+                    ],
+                    [
+                        58.18684760000,
+                        23.60969330000
+                    ],
+                    [
+                        58.18684577329,
+                        23.60969876508
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "Layer": "MARYAM_PLANNING",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "EntityHandle": "D83"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18790520000,
+                        23.60953790000
+                    ],
+                    [
+                        58.18780510000,
+                        23.60979440000
+                    ],
+                    [
+                        58.18798890000,
+                        23.60985730000
+                    ],
+                    [
+                        58.18808960000,
+                        23.60959940000
+                    ],
+                    [
+                        58.18790520000,
+                        23.60953790000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Linetype": "ByBlock",
+                "EntityHandle": "36D",
+                "SubClasses": "AcDbEntity:AcDbPolyline",
+                "Layer": "00_plots"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18778900000,
+                        23.61051690000
+                    ],
+                    [
+                        58.18763220000,
+                        23.61046420000
+                    ],
+                    [
+                        58.18751280000,
+                        23.61042410000
+                    ],
+                    [
+                        58.18744360000,
+                        23.61059890000
+                    ],
+                    [
+                        58.18763400000,
+                        23.61066290000
+                    ],
+                    [
+                        58.18771990000,
+                        23.61069170000
+                    ],
+                    [
+                        58.18778900000,
+                        23.61051690000
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "tertiary",
+                "EntityHandle": "Way No. 44",
+                "Layer": "ROAD",
+                "Linetype": "Continuous",
+                "SubClasses": "AcDbEntity:AcDbLine"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.18611920000,
+                        23.61134930000
+                    ],
+                    [
+                        58.18609080000,
+                        23.61142100000
+                    ]
+                ]
+            }
+        }
+    ]
+}
