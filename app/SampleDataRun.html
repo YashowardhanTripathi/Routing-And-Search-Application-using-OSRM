@@ -252,7 +252,7 @@ map.addLayer(defaultMarkerLayer);
 // CSV Data
 let csvData = [];
 function loadCSVData() {
-    const csvUrl = 'http://localhost:8000/polygons_with_centroids.csv';
+    const csvUrl = 'http://localhost:8000/data/polygons_with_centroids.csv';
     Papa.parse(csvUrl, {
         download: true,
         header: true,
@@ -269,7 +269,7 @@ function loadCSVData() {
 
 // Load OSM Data
 function loadOSMData() {
-    const osmDataUrl = 'http://localhost:8000/al_khoudh_7_Updated.geojson';
+    const osmDataUrl = 'http://localhost:8000/data/al_khoudh_7_Updated.geojson';
     fetch(osmDataUrl, { mode: 'cors' })
         .then(response => response.json())
         .then(data => {
@@ -300,7 +300,6 @@ function loadOSMData() {
                     shopsCount++;
                 }
 
-                // Add icons for Shop No. D7D and SCHOOL
                 if (entityHandle === 'Shop No. D7D' || entityHandle === 'SCHOOL') {
                     let centroid;
                     if (geometry.getType() === 'Point') {
@@ -316,9 +315,6 @@ function loadOSMData() {
                             type: entityHandle === 'Shop No. D7D' ? 'shop' : 'school'
                         });
                         iconSource.addFeature(iconFeature);
-                        console.log(`Added icon for ${entityHandle} at coordinates:`, centroid);
-                    } else {
-                        console.warn(`No valid centroid for ${entityHandle}`);
                     }
                 }
             });
@@ -328,7 +324,6 @@ function loadOSMData() {
             document.getElementById('schoolsCount').textContent = schoolsCount;
             document.getElementById('shopsCount').textContent = shopsCount;
 
-            // Ensure icons are styled after loading
             iconSource.getFeatures().forEach(feature => {
                 feature.setStyle(getIconStyle(feature));
             });
@@ -339,102 +334,106 @@ function loadOSMData() {
                         feature.setStyle(getStyle(feature));
                     });
                     addDefaultMarker();
-                    map.render(); // Force re-render to ensure icons appear
+                    map.render();
                 }
             });
         })
         .catch(error => console.error('Error loading OSM data:', error));
 }
 
-// Function to Extract Plot Number from User Input with Special Conditions
+// Updated extractPlotNumber Function
 function extractPlotNumber(input) {
     const trimmedInput = input.trim().toLowerCase();
-
-    // Special conditions for specific names with partial matching
     const specialNames = {
         'lulu hypermarket': 'D7D',
         'muscat international school': '570'
     };
 
-    // Check if input is contained within any special name (case-insensitive)
     for (const [name, plotNumber] of Object.entries(specialNames)) {
         if (name.toLowerCase().includes(trimmedInput)) {
+            console.log(`Special name match: ${trimmedInput} -> ${plotNumber}`);
             return plotNumber;
         }
     }
 
-    // Split input by commas and trim each part for regular plot number extraction
-    const parts = input.split(',').map(part => part.trim());
-
-    // Find the part that matches a Plot_Number in csvData
+<!--    const parts = input.split(',').map(part => part.trim());-->
+    const parts = (typeof input === 'string' ? input : '')
+  .split(/[, ]+/)
+  .map(part => part.trim());
     for (const part of parts) {
-        const exists = csvData.some(row =>
+        const match = csvData.find(row =>
             row.Plot_Number &&
-            row.Plot_Number.toString().toLowerCase() === part.toLowerCase()
+            row.Plot_Number.toString().toLowerCase().includes(part.toLowerCase())
         );
-        if (exists) {
-            return part;
+        if (match) {
+            console.log(`Plot number match: ${part} -> ${match.Plot_Number}`);
+            return match.Plot_Number;
         }
     }
 
-    throw new Error("No valid plot number found in input: " + input);
+    console.log(`No specific match found, returning original input: ${input}`);
+    return input; // Return original input if no match to avoid breaking
 }
 
-// Find Coordinates by Plot Number, Plot ID, or Code
+// Updated findCoordinates Function
 function findCoordinates(searchType, searchValue) {
-    const transformedValue = searchValue.trim();
-    const uppercaseValue = searchValue.toUpperCase();
-    const lowercaseValue = searchValue.toLowerCase();
+    const safeSearchValue = (typeof searchValue === 'string' ? searchValue : '').trim().toLowerCase();
+
+    if (!safeSearchValue) {
+        throw new Error("Search value cannot be empty");
+    }
+
+    console.log(`Searching for ${searchType}: ${safeSearchValue}`);
+
+    const specialNames = {
+        'lulu hypermarket': 'D7D',
+        'muscat international school': '570'
+    };
+
+    for (const [name, value] of Object.entries(specialNames)) {
+        if (name.toLowerCase().includes(safeSearchValue)) {
+            const result = csvData.find(row => {
+                if (searchType === 'number' && row.Plot_Number === value) return true;
+                if (searchType === 'id' && row.Plot_ID === value) return true;
+                if (searchType === 'code' && row.Plot_Code === value) return true;
+                return false;
+            });
+            if (result) {
+                console.log(`Special name coordinates found: ${result.Centroid_Lon}, ${result.Centroid_Lat}`);
+                return [result.Centroid_Lon, result.Centroid_Lat];
+            }
+        }
+    }
 
     const result = csvData.find(row => {
-        let rowValue;
-        if (searchType === 'number') {
-            rowValue = row.Plot_Number;
-        } else if (searchType === 'id') {
-            rowValue = row.Plot_ID;
-        } else if (searchType === 'code') {
-            rowValue = row.Plot_Code;
-        }
-        if (!rowValue) return false;
+        const field = {
+            'number': row.Plot_Number,
+            'id': row.Plot_ID || row.National_ID,
+            'code': row.Plot_Code
+        }[searchType];
 
-        if (rowValue.toString().toLowerCase() === transformedValue.toLowerCase()) {
-            return true;
-        }
-        if (rowValue.toString() === uppercaseValue) {
-            return true;
-        }
-        if (rowValue.toString() === lowercaseValue) {
-            return true;
-        }
-        return false;
+        if (!field) return false;
+        return field.toString().toLowerCase().includes(safeSearchValue);
     });
+
     if (result) {
+        console.log(`Coordinates found: ${result.Centroid_Lon}, ${result.Centroid_Lat}`);
         return [result.Centroid_Lon, result.Centroid_Lat];
     }
-    throw new Error("No matching data found for: " + searchValue);
+
+    throw new Error(`No matching ${searchType} found for: ${safeSearchValue}`);
 }
 
 // Highlight Section (only for Code)
 function highlightSection(plotCode) {
-    const transformedValue = plotCode.trim();
-    const uppercaseValue = plotCode.toUpperCase();
-    const lowercaseValue = plotCode.toLowerCase();
-
-    osmSource.getFeatures().forEach(feature => {
-        feature.setStyle(getStyle(feature));
-    });
+    const transformedValue = plotCode.trim().toLowerCase();
+    osmSource.getFeatures().forEach(feature => feature.setStyle(getStyle(feature)));
     searchSource.clear();
 
     let foundFeature = null;
     osmSource.getFeatures().forEach(feature => {
         let featureCode = feature.get('Postal_Code') || feature.get('EntityHandle');
-        if (!featureCode) return;
-
-        if (featureCode.toString().toLowerCase() === transformedValue.toLowerCase()) {
-            foundFeature = feature.clone();
-        } else if (featureCode.toString() === uppercaseValue) {
-            foundFeature = feature.clone();
-        } else if (featureCode.toString() === lowercaseValue) {
+        if (featureCode && featureCode.toString().toLowerCase().includes(transformedValue)) {
             foundFeature = feature.clone();
         }
     });
@@ -461,15 +460,14 @@ function highlightSection(plotCode) {
 
         foundFeature.setStyle(highlightStyle);
         searchSource.addFeature(foundFeature);
-
         const extent = foundFeature.getGeometry().getExtent();
         map.getView().fit(extent, { duration: 1000, padding: [50, 50, 50, 50] });
     } else {
-        throw new Error("No matching data found for: " + plotCode);
+        throw new Error("No matching code found for: " + plotCode);
     }
 }
 
-// Routing Function with Turn-by-Turn Guidance
+// Routing Function
 async function fetchAndDisplayRoute(start, end) {
     const osrmUrl = `http://164.68.98.76:5000/route/v1/driving/${start[0]},${start[1]};${end[0]},${end[1]}?overview=full&geometries=geojson&steps=true`;
     try {
@@ -484,7 +482,6 @@ async function fetchAndDisplayRoute(start, end) {
             });
             routeSource.clear();
             routeSource.addFeature(routeFeature);
-
             searchSource.clear();
 
             const instructions = route.legs[0].steps.map((step, index) => ({
@@ -497,7 +494,6 @@ async function fetchAndDisplayRoute(start, end) {
             }));
 
             displayInstructions(instructions);
-
             const extent = routeFeature.getGeometry().getExtent();
             map.getView().fit(extent, { duration: 1000, padding: [50, 50, 50, 50] });
         }
@@ -540,19 +536,18 @@ function getIconStyle(feature) {
 
     switch (type) {
         case 'shop':
-            src = 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Store_icon.svg'; // Fallback public URL
+            src = 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Store_icon.svg';
             color = '#0000FF';
             break;
         case 'school':
-            src = 'https://upload.wikimedia.org/wikipedia/commons/8/8e/School_icon.svg'; // Fallback public URL
+            src = 'https://upload.wikimedia.org/wikipedia/commons/8/8e/School_icon.svg';
             color = '#FF4500';
             break;
         default:
-            console.warn('No icon style for type:', type);
             return null;
     }
 
-    const style = new ol.style.Style({
+    return new ol.style.Style({
         image: new ol.style.Icon({
             src: src,
             scale: 0.5,
@@ -560,12 +555,9 @@ function getIconStyle(feature) {
             crossOrigin: 'anonymous'
         })
     });
-
-    console.log(`Applying icon style for ${type} with src: ${src}`);
-    return style;
 }
 
-// Display Instructions in Panel
+// Display Instructions
 function displayInstructions(instructions) {
     const panel = document.getElementById('instructions-panel');
     const list = document.getElementById('instructions-list');
@@ -623,9 +615,10 @@ document.getElementById('searchType').addEventListener('change', function() {
         }
         if (searchType === 'number') {
             startSearch.value = '56E';
-        }
-        if (searchType === 'id') {
+        } else if (searchType === 'id') {
             startSearch.value = '536';
+        } else {
+            startSearch.value = '';
         }
     }
 });
@@ -636,15 +629,22 @@ document.getElementById('searchButton').addEventListener('click', function() {
     if (instructionsPanel) instructionsPanel.style.display = 'none';
 
     const searchType = document.getElementById('searchType').value;
-    let startValue = document.getElementById('startSearch').value.trim();
-    let endValue = document.getElementById('endSearch') ? document.getElementById('endSearch').value.trim() : '';
+    let startValue = document.getElementById('startSearch').value || ''; // Default to empty string if null/undefined
+    let endValue = document.getElementById('endSearch') ? (document.getElementById('endSearch').value || '') : '';
+
+    // Check if startValue is empty or only whitespace
+    if (!startValue.trim()) {
+        alert("Please enter a valid start value.");
+        return; // Exit early to prevent further execution
+    }
 
     try {
-        // Extract plot number if search type is "number"
         if (searchType === 'number') {
             startValue = extractPlotNumber(startValue);
-            if (endValue) {
+            if (endValue.trim()) { // Only process endValue if it’s not empty
                 endValue = extractPlotNumber(endValue);
+            } else {
+                endValue = ''; // Reset to empty if only whitespace
             }
         }
 
@@ -678,7 +678,8 @@ document.getElementById('searchButton').addEventListener('click', function() {
             });
         }
     } catch (error) {
-        alert(error.message);
+        alert(`Error: ${error.message}`);
+        console.error("Search error:", error);
     }
 });
 
@@ -691,12 +692,8 @@ document.getElementById('resetButton').addEventListener('click', function() {
     routeSource.clear();
     searchSource.clear();
     defaultMarkerSource.clear();
-    osmSource.getFeatures().forEach(feature => {
-        feature.setStyle(getStyle(feature));
-    });
-    iconSource.getFeatures().forEach(feature => {
-        feature.setStyle(getIconStyle(feature));
-    });
+    osmSource.getFeatures().forEach(feature => feature.setStyle(getStyle(feature)));
+    iconSource.getFeatures().forEach(feature => feature.setStyle(getIconStyle(feature)));
     map.getView().animate({ zoom: 17, duration: 1000 });
 
     const searchType = document.getElementById('searchType').value;
@@ -709,7 +706,7 @@ document.getElementById('resetButton').addEventListener('click', function() {
         startSearch.value = '56E';
         addDefaultMarker();
     }
-    map.render(); // Force re-render after reset
+    map.render();
 });
 
 // Style Function
@@ -721,13 +718,7 @@ function getStyle(feature) {
     let color = '#444444';
     let geometry = feature.getGeometry();
 
-    // Handle EntityHandle as an array or string
-    let labelText = '';
-    if (Array.isArray(entityType)) {
-        labelText = entityType.join('\n'); // Join array with newlines for display
-    } else {
-        labelText = entityType || '';
-    }
+    let labelText = Array.isArray(entityType) ? entityType.join('\n') : entityType || '';
 
     if (type && type.toLowerCase().includes('road')) {
         color = '#FFA500';
@@ -930,46 +921,28 @@ function getStyle(feature) {
 
 // Update styles on zoom change
 map.getView().on('change:resolution', function() {
-    osmSource.getFeatures().forEach(feature => {
-        feature.setStyle(getStyle(feature));
-    });
-    iconSource.getFeatures().forEach(feature => {
-        feature.setStyle(getIconStyle(feature));
-    });
-    map.render(); // Force re-render on zoom
+    osmSource.getFeatures().forEach(feature => feature.setStyle(getStyle(feature)));
+    iconSource.getFeatures().forEach(feature => feature.setStyle(getIconStyle(feature)));
+    map.render();
 });
 
-// Function to Add Green Marker for Default Value (56E)
+// Add Default Marker
 function addDefaultMarker() {
     try {
-        const searchType = 'number';
-        const defaultValue = '56E';
-        const coords = findCoordinates(searchType, defaultValue);
-
-        const greenMarkerStyle = new ol.style.Style({
-            image: new ol.style.Circle({
-                radius: 10,
-                fill: new ol.style.Fill({ color: 'green' }),
-                stroke: new ol.style.Stroke({ color: 'white', width: 2 })
-            })
-        });
-
+        const coords = findCoordinates('number', '56E');
         const markerFeature = new ol.Feature({
             geometry: new ol.geom.Point(ol.proj.fromLonLat(coords))
         });
-        markerFeature.setStyle(greenMarkerStyle);
-
+        markerFeature.setStyle(startStyle);
         defaultMarkerSource.clear();
         defaultMarkerSource.addFeature(markerFeature);
-
         map.getView().animate({
             center: ol.proj.fromLonLat(coords),
             zoom: 17,
             duration: 1000
         });
     } catch (error) {
-        console.error("Error adding default marker for 56E:", error);
-        alert("Could not find location for default value 56E: " + error.message);
+        console.error("Error adding default marker:", error);
     }
 }
 
